@@ -12,7 +12,6 @@ jobs:
 
     steps:
       - uses: actions/checkout@v2
-      - uses: codecov/codecov-action@v2
       - name: Set up Python 3.8
         uses: actions/setup-python@v2
         with:
@@ -27,3 +26,5 @@ jobs:
         run: poetry run coverage xml
       - name: Coverage report to Codecov
         uses: codecov/codecov-action@v2
+        with:
+          files: ./coverage.xml
