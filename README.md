@@ -4,7 +4,8 @@
 
 ## Viikko 1
 Tämä repositorio sisältää Helsingin yliopiston Ohjelmistotuotanto-kurssin viikon 1 versionhallintatehtävät 2-13.
-Loput tehtävät löydät täältä:
+Loput tehtävät löydät täältä: 
+[Tehtävät 14-16](https://github.com/ojanenmarianna/ohtu-2022)
 
 
 
