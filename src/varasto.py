@@ -8,7 +8,7 @@ class Varasto:
 
         self.saldo = 0.0
 
-        if alku_saldo <= tilavuus and alku_saldo >= 0:
+        if 0 <= alku_saldo <= tilavuus:
             # mahtuu
             self.saldo = alku_saldo
         else:
